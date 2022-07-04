@@ -1,23 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Verdana', sans-serif;
 }
 
 body{
     background: #fcfcfc;
 
-}
-.finish-section{
-    margin: 0 auto;
-    width: 800px;
-    visibility: hidden;
-}
-.final-page {
-    margin: 0 auto;
-    width: 800px;
-    visibility: hidden;
 }
 .info-box,
 .quiz-box,
