@@ -1,77 +1,47 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font: 16px 'Arial', sans-serif;
-    border: none;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
 }
-body {
-    background: linear-gradient(to right, #F6490F, #F27813, #EF9614);
-    background-repeat: no-repeat;
-    height: 100%;
-    background-attachment: fixed;
- }
 
- header {
-    margin: 50px 20px;
- }
+body{
+    background: #fcfcfc;
 
- header h1 {
-    text-align: center;
-    font-weight: bold;
- }
-
- .header-info {
-    display: flex;
-    justify-content: center;
- }
-
- .container {
-    width: 80%;
-    max-width: 80%;
-    background-color: beige;
-    height: 70%;
-    box-shadow: 0 0 5px 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    text-align: center;
- }
- .score {
-    font-size: large;
-    font-weight: bold;
- }
-  
- #user-score {
-    color: #EF9614;
- }
-  
- #total-score {
-    color: #F6490F
- }
- .btn {
-    font-size: large;
-    font-weight: bold;
-    box-shadow: 0 6px 12px -2px rgba(#F27813, .15);
-    background: #EF9614;
-    border-radius: 4px;
+}
+.finish-section{
+    margin: 0 auto;
+    width: 800px;
+    visibility: hidden;
+}
+.final-page {
+    margin: 0 auto;
+    width: 800px;
+    visibility: hidden;
+}
+.info-box,
+.quiz-box,
+.result-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #84c5fe;
     padding: 10px;
-    color: beige;
-    margin: 6px;
+    margin: 10px;
+    width: 40%;
+    border: 5px solid #020d1a;
+    border-radius: 5px;
+    color: #020d1a;
+    
+}
+.startBtn button{
+    background: #84c5fe;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #020d1a;
+    border-radius: 5px;
+    color: #020d1a;
+    font-size: 15px;
     cursor: pointer;
- }
- .options {
-    padding: 10px;
-    order: 3;
- }
-  
- .controls {
-    padding: 10px;
-    order: 4;
- }
- .hide {
-    display: none;
- }
 
+}
