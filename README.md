@@ -22,6 +22,5 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 
-## Screenshots
-
-## Links
+## Link to app
+https://amjimenez.github.io/code-quiz/
