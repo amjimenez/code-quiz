@@ -25,5 +25,3 @@ THEN I can save my initials and score
 ## Screenshots
 
 ## Links
-
-A link to the deployed [URL]():

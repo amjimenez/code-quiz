@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Timed Code Quiz</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-
-    <!-- begin quiz section -->
-    <body>
-        <div class="info-box">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timed Code Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- begin quiz section -->
+<body>
+    <button type="button" onclick="displayHighScores()">Show High Scores</button>
+    <div class="quizBox">
+        <div class="timer">
+            <div class="timeLeft">Time: <span id="timeInSeconds">75</span></div>
+        </div>
+    </div>
+    <div id="info-box">
         <div class="info-title"><span>Rules to the Quiz:</span></div>
         <div class="info-list">
             <div class="info">1. You will have <span>75 seconds</span> to answer 10 questions.</div>
             <div class="info">2. For each incorrect answer, 5 seconds will be deducted from the time.</div>
             <div class="info">3. Your score is based on the number of correct answers.</div>
+        </div>
+        <div><button id="startBtn">Start Quiz</button></div>
     </div>
-    <div class="startBtn">
-        <button class="start">Start Quiz</button>
-    </div>
-    <div class="buttons">
-        <button class="quit">End Quiz</button>
-        <button class="restart">Begin Quiz</button>
-    </div>
-</div>
-
-<div class="quizBox">
-    <header>
-    <div class="timer">
-        <div class="timeLeft">Time Left</div>
-        <div class="timeSeconds">75</div>
-    </div>
-    </header>
-</div>
-
-<!-- created a JavaScript file with questions -->
+    <div id="answer-box"></div>
+    <!-- created a JavaScript file with questions -->
     <script src="assets/js/questions.js"></script>
-
     <script src="assets/js/script.js"></script>
-
 </body>
 </html>

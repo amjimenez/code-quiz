@@ -1,16 +1,16 @@
 // questions, options, and answers
 let questions = [
   {
-    question: "Where is the correct place to inset a Javascript?",
+    question: "Where is the correct place to insert a Javascript?",
     answers: [
-      {option: "The <footer> sections", answer: false},
-      {option: "Both the <head> section and the <body> section", answer: true},
-      {option: "The <body> section", answer: false},
-      {option: "The <head> section", answer: false},
+      {option: "The &lt;footer&gt; sections", answer: false},
+      {option: "Both the &lt;head&gt; section and the &lt;body&gt; section", answer: true},
+      {option: "The &lt;body&gt; section", answer: false},
+      {option: "The &lt;head&gt; section", answer: false},
     ]
     },
     {
-    question: "The external Javascript file must contain <script> tag?",
+    question: "The external Javascript file must contain &lt;script&gt; tag?",
     answers: [
       {option: "True", answer: false},
       {option: "False", answer: true},
@@ -19,10 +19,10 @@ let questions = [
     {
     question: "Inside which HTML element do we put the Javascript?",
     answers: [
-      {option: "<javascript>", answer: false},
-      {option: "<script>", answer: true},
-      {option: "<js>", answer: false},
-      {option: "<jscript>", answer: false},
+      {option: "&lt;javascript&gt;", answer: false},
+      {option: "&lt;script&gt;", answer: true},
+      {option: "&lt;js&gt;", answer: false},
+      {option: "&lt;jscript&gt;", answer: false},
 
     ]
     },
@@ -30,7 +30,7 @@ let questions = [
     question: "How do you insert a comment that has more than one line?",
     answers: [
       {option: "//This comment has more than one line//", answer: false},
-      {option: "<!--This comment has more than one line-->", answer: false},
+      {option: "&lt;!--This comment has more than one line--&gt;", answer: false},
       {option: "/*This comment has more than one line*/", answer: true},
       {option: "/`/This comment has more than one line/`/", answer: false},
     ]
@@ -40,8 +40,8 @@ let questions = [
       answers: [
         {option: "if (i!=5)", answer: true},
         {option: "if i=! 5 then", answer: false},
-        {option: "if i <> 5", answer: false},
-        {option: "if (i <> 5)", answer: false},
+        {option: "if i &lt;&gt; 5", answer: false},
+        {option: "if (i &lt;&gt; 5)", answer: false},
     ]
     },
     { 
